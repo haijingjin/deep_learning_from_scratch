@@ -2,7 +2,7 @@
 
 A minimalist deep learning playground built entirely from scratch using **NumPy**.  
 
-This repository is an ongoing project as I learn and implement core deep learning models from scratch. 
+This repository is an ongoing project to implement core deep learning models from scratch. 
 
 ## References
 
