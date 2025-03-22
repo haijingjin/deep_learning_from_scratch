@@ -1,10 +1,8 @@
-# 🧠 Neural Networks from Scratch
+# Neural Networks from Scratch
 
 A minimalist deep learning playground built entirely from scratch using **NumPy**.  
 
-This repository is an ongoing project as I learn and implement core deep learning models from scratch. It's a reflection of my growing understanding of the math, code, and theory behind neural networks.
-
-> 🚧 **Status:** Actively growing — new features and models will be added weekly.
+This repository is an ongoing project as I learn and implement core deep learning models from scratch. 
 
 ## References
 
