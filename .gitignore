@@ -1,3 +1,7 @@
+# Ignore all 'archived' and 'logs' folders (anywhere in the repo)
+**/archived/
+**/logs/
+
 # Ignore __pycache__ directories
 __pycache__/
 
