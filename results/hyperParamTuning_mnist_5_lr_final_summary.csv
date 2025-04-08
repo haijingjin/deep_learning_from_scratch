@@ -1,0 +1,3 @@
+setting,eval_accuracy,eval_cost,test_accuracy,test_cost
+no_lr_schedule,9785,0.15114332793058002,9794,0.14592088313638518
+with_lr_schedule,9808,0.14946635268924602,9798,0.1465271814376292

@@ -1,5 +1,17 @@
-"""Very Basic Neural Networks
 """
+Very Basic Neural Network (Modified)
+
+This script implements a simple feedforward neural network trained with stochastic gradient descent (SGD),
+based on network.py by Michael Nielsen (MIT License)
+
+Modifications by Haijing Jin include:
+- Replaced the original sigmoid with a numerically stable version to prevent overflow
+- Updated to Python 3 (removed `xrange`, updated `print` statements)
+
+This version serves as a minimal and educational baseline for understanding backpropagation and SGD,
+while also addressing numerical robustness and compatibility issues.
+"""
+
 
 ### Libraries
 import numpy as np
@@ -11,6 +23,8 @@ class Network(object):
         self.num_layers = len(sizes)    
         self.sizes = sizes
         self.biases = [np.random.randn(y, 1) for y in sizes[1:]]
+        # x stands for the number of neurons in the previous layer
+        # y stands for the number of neurons in the current layer
         self.weights = [np.random.randn(y, x)
                         for x, y in zip(sizes[:-1], sizes[1:])]
 
